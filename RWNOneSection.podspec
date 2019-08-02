@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RWNOneSection"
-  s.version      = "4"
+  s.version      = "3.0.1"
   s.summary      = "RWNOneSection."
 
   # This description is used to generate tags and improve search results.
