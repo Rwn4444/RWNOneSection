@@ -74,7 +74,6 @@
 		0459D2BB22F3D318009F8635 /* RWNOneSection */ = {
 			isa = PBXGroup;
 			children = (
-				0459D30522F3D8B4009F8635 /* Target */,
 				0459D2D222F3D430009F8635 /* RWNOneSection */,
 				0459D2BC22F3D318009F8635 /* AppDelegate.h */,
 				0459D2BD22F3D318009F8635 /* AppDelegate.m */,
@@ -92,6 +91,7 @@
 		0459D2D222F3D430009F8635 /* RWNOneSection */ = {
 			isa = PBXGroup;
 			children = (
+				0459D30522F3D8B4009F8635 /* Target */,
 				0459D30122F3D884009F8635 /* Target1 */,
 				0459D2FD22F3D732009F8635 /* AViewController */,
 			);
