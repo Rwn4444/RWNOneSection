@@ -8,6 +8,7 @@
 
 #import "AViewController.h"
 //#import "BViewController.h"
+#import <RWNTwoSection_Category/CTMediator+TwoSection.h>
 #import <HandyFrame/UIView+LayoutMethods.h>
 
 @interface AViewController ()
@@ -38,7 +39,9 @@
 - (void)didTappedPushBViewControllerButton:(UIButton *)button
 {
 //    BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
-//    [self.navigationController pushViewController:viewController animated:YES];
+//    BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
+    UIViewController * viewController = [[CTMediator sharedInstance] twoSectionControllerContent:@"hello, world!"];
+    [self.navigationController pushViewController:viewController animated:YES];
     
 }
 

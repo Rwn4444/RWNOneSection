@@ -8,5 +8,6 @@ use_frameworks!
 
 target 'RWNOneSection' do
    pod 'HandyFrame'
+  pod 'RWNTwoSection_Category' 
 
 end
